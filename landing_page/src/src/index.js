@@ -1,6 +1,6 @@
 import Home from './pages/home'
 import Features from './pages/features'
-import About_Us from './pages/Aboutus'
+import About_Us from './pages/aboutus'
 import ContactUs from './pages/Contact'
 export default function Landing_Page(){
     return(
