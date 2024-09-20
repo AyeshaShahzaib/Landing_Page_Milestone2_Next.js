@@ -12,15 +12,15 @@ export default function AboutUS() {
           <div className={style.overview}>
             <h2>Overview</h2>
             <p>
-              "The Tech Conference 2024 brings together leading innovators,
+              The Tech Conference 2024 brings together leading innovators,
               industry experts, and technology enthusiasts for a dynamic exploration
               of the future of technology. Our goal is to empower attendees with
-              knowledge, connections, and inspiration to shape tomorrow’s tech landscape."
+              knowledge, connections, and inspiration to shape tomorrows tech landscape.
             </p>
           </div>
           <div className={style.our_mission}>
             <h2>Our Mission</h2>
-            <p>"Our mission is to inspire and equip attendees to push the boundaries of technology, drive innovation in their respective fields, and make meaningful contributions to the future of tech."</p>
+            <p>Our mission is to inspire and equip attendees to push the boundaries of technology, drive innovation in their respective fields, and make meaningful contributions to the future of tech.</p>
           </div>
         </div>
       </div>
