@@ -7,7 +7,7 @@ export default function Cards() {
             </div>
             <div className={style.Main_Div}>
                 <div className={style.Sub_Div}>
-                    <div className={style.card}><h1 className={style.Inside}>1. Inspiring Keynotes</h1><p className={style.Inside2}>Hear from the visionaries shaping tech's future.</p></div>
+                    <div className={style.card}><h1 className={style.Inside}>1. Inspiring Keynotes</h1><p className={style.Inside2}>Hear from the visionaries shaping tech&apos;s future.</p></div>
                     <div className={style.card}><h1 className={style.Inside}>2. Hands-On Workshops</h1><p className={style.Inside2}>Learn new skills with expert-led sessions.</p></div>
                 </div>
                 <div className={style.Sub_Div2}>
