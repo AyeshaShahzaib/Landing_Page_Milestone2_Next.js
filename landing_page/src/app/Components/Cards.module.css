@@ -1,0 +1,97 @@
+.background{
+    height: 800px;
+    background-image: url("/Screenshot 2024-08-24 140810.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+.Main_heading{
+    padding-top:50px;
+    color: White;
+    text-decoration: 8px solid underline #FF851B;
+    font-size: 60px;
+    margin-bottom: 100px;
+    
+}
+.Sub_Div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    margin-top: 50px;
+}
+.Sub_Div2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: auto;
+    margin-top: 50px;
+}
+.card{
+    margin-top: 10px;
+    height:150px;
+    width: 400px;
+    background: linear-gradient(0deg, #1E3A8A, #FFFFFF);
+    border-radius: 25px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);;
+}
+.Inside{
+    margin-top:30px ;
+    margin-left: 30px;
+    color:#0A1F44;
+    font-size: 25px;
+}
+.Inside2{
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 300px;
+    color: rgb(211, 211, 211);
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.Sub_Div{
+    animation: appear both;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    animation-delay: 2s;
+}
+@keyframes subdiv2{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.Sub_Div2{
+    animation: subdiv2 both;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+    animation-delay: 1s;
+}
+.heading{
+    animation: subdiv2 both;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    animation-delay: 1s;
+}
+

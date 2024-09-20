@@ -1,0 +1,124 @@
+.HeroSection_Background {
+    height: 900px;
+    background-color:#1A2B48 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1423px;
+}
+
+.video_container {
+    background-color:#0A1F44;
+    height: 605px;
+    margin-bottom: 150px;
+   
+}
+
+.video{
+    height:605px;
+}
+.overlay {
+    height:605px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 140px;
+    margin-left: 187px;
+    background: linear-gradient(180deg,  rgba(14, 26, 56, 0) 100%);
+    }
+.Title{
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.SubTitle h2{
+  color: white;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-top: 180px;
+  text-decoration: 6px #0D47A1 solid underline;
+}
+.overlay p{
+    color: white;
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.secondSubTitle p{
+    text-decoration: underline 3px solid #FF851B ;
+}
+.Button button{
+    height:70px ;
+    width: 180px;
+    margin-left: 760px;
+    margin-top:  40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:white ;
+    background-color:#FF851B ;
+    font-size: 20px;
+    font-weight: 200;
+    border: 3px solid white;
+    border-radius:10px;
+}
+@keyframes heading{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.SubTitle{
+    animation: heading 1s linear;
+}
+@keyframes paragraph {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.p {
+    opacity: 0;
+    transform: translateX(100px);
+    animation: paragraph 1s linear forwards;
+    animation-delay: 1s; 
+    animation-fill-mode: forwards;
+}
+@keyframes secondSubTitle {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.secondSubTitle{
+    opacity: 0;
+    transform: translateX(30px);
+    animation: secondSubTitle 1.5s linear forwards;
+    animation-delay: 1.5s; 
+    animation-fill-mode: forwards;
+}
+.Button{
+    opacity: 0;
+    transform: translateX(15px);
+    animation: secondSubTitle 1s linear forwards;
+    animation-delay: 1s; 
+    animation-fill-mode: forwards;
+}

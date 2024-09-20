@@ -1,0 +1,15 @@
+.Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    width: auto;
+    background-color:#0e2b5e;
+    border-bottom: #FF851B 5px solid;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+.a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}

@@ -1,0 +1,133 @@
+.background{
+    height: 800px;
+   background-image: url("/Screenshot 2024-08-24 151001.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.heading{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.heading h2{
+         font-size: 40px;
+         color: white;
+         text-decoration: solid underline 8px #FF851B;
+}
+
+.heading2{
+    font-size:28px;
+    color: #ff851b;
+    margin-bottom: 200px;
+    text-decoration: solid underline 2px white;
+    
+}
+.contactform{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.contactform form{
+    margin-left: 30px;
+}
+.first_input{
+    display: inline;
+}
+.first_input input{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border-color: #FF851B;
+}
+.message{
+    display: block;   
+}
+.message textarea{
+    width: 620px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid #FF851B;
+}
+
+.contactform button{
+    margin-left:460px;
+    margin-top: 15px;
+    height:50px ;
+    width: 180px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:white ;
+    background-color:#FF851B ;
+    font-size: 20px;
+    font-weight: 200;
+    border: 3px solid white;
+    border-radius:10px;
+}
+.contactsection{
+    margin-left:400px ;
+    margin-top:140px ;
+}
+.contactsection h2{
+    color: #FF851B;
+    margin-bottom: 20px;
+}
+.contactsection p{
+    color: white;
+}
+.contactsection a{
+    color: #FF851B;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.heading{
+    animation: appear both;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+    animation-delay: 1s;
+}
+.heading2{
+    animation: appear both;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+}
+.first_input{
+    animation: appear both;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+}
+.message{
+    animation: appear both;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+}
+.contactsection{
+    animation: appear both;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+.contactform button{
+    animation: appear both;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
